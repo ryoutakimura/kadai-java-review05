@@ -54,7 +54,7 @@ public class Review05 {
                 try {
                     rs.close();
                 } catch (SQLException e) {
-                    System.err.println("データベース切断時にエラーが発生しました。");
+                    System.err.println("ResultSet切断時にエラーが発生しました。");
                     e.printStackTrace();
                 }
             }
@@ -63,7 +63,7 @@ public class Review05 {
                 try {
                     pstmt.close();
                 } catch (SQLException e) {
-                    System.err.println("データベース切断時にエラーが発生しました。");
+                    System.err.println("PreparedStatement切断時にエラーが発生しました。");
                     e.printStackTrace();
                 }
             }
